@@ -34,5 +34,5 @@ sixit/geometry is a HEADER-ONLY LIB, no build is really necessary.
 
 ## Plans for v0.0.2
 - code cleanup
-- fixing and adding more tests
+- fixing commented-out tests, and adding more tests (incl. exhaustive ones)
 - replacing numerically-unstable algorithms wherever feasible. 
