@@ -6,13 +6,13 @@ We are currently at version 0.0.1, and we will NOT commit to APIs being stable a
 
 ## Included 
 - 2D geometry primitives, with not-so-trivial classes and algos including:
-   + curve2 - curves incl. Bezier segments for pathfinding.
-      * incl. important things for pathfinding - finding the shortest curve2 given boundary conditions and other restrictions (such as minimum radius).
+   + curve2 - curves incl. Bezier segments
+      * incl. things which are important for pathfinding - finding the shortest curve2 given boundary conditions and other restrictions (such as minimum radius).
       * incl. rendering of SVG-like primitives (proper anti-aliasing and optimizations pending)
    + 2D polygon math - OR-ing, ADD-ing, XOR-ing
    + TBD
 - 3D geometry primitives, with not-so-trivial classes and algos including:
-   + finding the best plane to approximate N>3 3D points best
+   + finding the best plane to approximate N>3 3D points best (SVD-based)
    + TBD
 
 ## Support for sixit/dmath floating-point determinism
