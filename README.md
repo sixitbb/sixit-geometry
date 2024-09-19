@@ -29,6 +29,7 @@ In our speak, "platform" = "CPU+Compiler+OS". Currently, we're supporting {x64|A
 Dependencies:
 - [sixit/core](https://github.com/sixitbb/sixit-core/tree/main)
 - [sixit/dmath](https://github.com/sixitbb/sixit-dmath/tree/main)
+
 Install: just put all sixit libs under the same sixit folder.
 
 Building:
