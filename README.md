@@ -5,11 +5,13 @@ sixit/geometry provides geometrical primitives and algorithms (both 2D and 3D), 
 We are currently at version 0.0.1, and we will NOT commit to APIs being stable at least until v0.1.0... 
 
 ## Included 
-- 2D geometry primitives, with not-so-primitive classes and algos including:
-   + curve2 - curves for pathfinding, _and rendering of SVG-like primitives_.
+- 2D geometry primitives, with not-so-trivial classes and algos including:
+   + curve2 - curves incl. Bezier segments for pathfinding.
+      * incl. important things for pathfinding - finding the shortest curve2 given boundary conditions and other restrictions (such as minimum radius).
+      * incl. rendering of SVG-like primitives (proper anti-aliasing and optimizations pending)
    + 2D polygon math - OR-ing, ADD-ing, XOR-ing
    + TBD
-- 3D geometry primitives, with not-so-primitive classes and algos including:
+- 3D geometry primitives, with not-so-trivial classes and algos including:
    + finding the best plane to approximate N>3 3D points best
    + TBD
 
