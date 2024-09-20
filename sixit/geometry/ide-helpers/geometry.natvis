@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+    <Type Name="sixit::geometry::low_level::vector2">
+        <DisplayString>{{ {x,g}, {y,g} }}</DisplayString>
+    </Type>
+    <Type Name="sixit::geometry::low_level::vector3">
+        <DisplayString>{{ {x,g}, {y,g}, {z,g} }}</DisplayString>
+    </Type>
+    <Type Name="sixit::geometry::point2">
+        <DisplayString>{vector}</DisplayString>
+    </Type>
+    <Type Name="sixit::geometry::point3">
+      <DisplayString>{vector}</DisplayString>
+    </Type>
+    <Type Name="sixit::geometry::direction2">
+        <DisplayString>{vector}</DisplayString>
+    </Type>
+    <Type Name="sixit::geometry::ray2">
+    <DisplayString>{{o={origin_data}, d={direction_data}}}</DisplayString>
+    </Type>
+    <Type Name="sixit::geometry::triangle2">
+        <DisplayString>{{{points[0]}, {points[1]}, {points[2]}}}</DisplayString>
+    </Type>
+    <Type Name="sixit::geometry::triangle3">
+        <DisplayString>{{{points[0]}, {points[1]}, {points[2]}}}</DisplayString>
+    </Type>
+    <Type Name="sixit::geometry::low_level::two_points_holder&lt;*&gt;">
+        <DisplayString>{{{points[0]}, {points[1]}}}</DisplayString>
+        <Expand>
+            <Item Name="[0]">points[0]</Item>
+            <Item Name="[1]">points[1]</Item>
+        </Expand>
+    </Type>
+</AutoVisualizer>
